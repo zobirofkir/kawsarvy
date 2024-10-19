@@ -16,3 +16,23 @@ header{
 body{
     font-family: "Roboto Mono", monospace;
 }
+
+.marquee {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .marquee .flex {
+    animation: marquee 40s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
