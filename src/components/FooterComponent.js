@@ -28,9 +28,8 @@ const FooterComponent = () => {
           {/* Contact Section */}
           <div className="flex flex-col space-y-2">
             <h5 className='text-black font-bold'>Contact Us</h5>
-            <p className="text-black">Email: <a href="mailto:csw@zobirofkir.com" className="hover:text-gray-400 transition duration-300">csw@zobirofkir.com</a></p>
-            <p className="text-black">Phone: <a href="tel:+212 619920942" className="hover:text-gray-400 transition duration-300">+212 619920942</a></p>
-            <p className="text-black">Address: Morocco, Imouzzer Kandar Ine Soltane</p>
+            <p className="text-black">Email: <a href="mailto:kawsarvy.design@gmail.com" className="hover:text-gray-400 transition duration-300">kawsarvy.design@gmail.com</a></p>
+            <p className="text-black">Phone: <a href="tel:+880 130 35 36 185" className="hover:text-gray-400 transition duration-300">+880 130 35 36 185</a></p>
           </div>
         </div>
       </div>
@@ -41,9 +40,9 @@ const FooterComponent = () => {
           {/* Left Section: Links */}
           <div className="flex space-x-6">
             <a href="#home" className="text-sm hover:text-gray-400 transition duration-300 text-black">Home</a>
-            <a href="#about" className="text-sm hover:text-gray-400 transition duration-300 text-black">About</a>
-            <a href="#services" className="text-sm hover:text-gray-400 transition duration-300 text-black">Services</a>
-            <a href="#contact" className="text-sm hover:text-gray-400 transition duration-300 text-black">Contact</a>
+            <a href="#home" className="text-sm hover:text-gray-400 transition duration-300 text-black">About</a>
+            <a href="#home" className="text-sm hover:text-gray-400 transition duration-300 text-black">Services</a>
+            <a href="#home" className="text-sm hover:text-gray-400 transition duration-300 text-black">Contact</a>
           </div>
 
           {/* Center Section: Social Media */}
