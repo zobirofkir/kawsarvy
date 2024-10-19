@@ -59,7 +59,7 @@ const FooterComponent = () => {
           </div>
 
           <div className="text-sm text-black">
-            © {new Date().getFullYear()} Zobir Ofkir. All rights reserved.
+            © {new Date().getFullYear()} kawsar. All rights reserved.
           </div>
         </div>
       </div>
