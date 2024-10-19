@@ -5,7 +5,7 @@ const BrandComponent = () => {
     <div className='mt-10 bg-white overflow-hidden p-[100px]'>
       <h3 className='text-center font-bold text-black text-2xl'>Brands</h3>
       <div className='marquee mt-20'>
-        <div className='flex flex-nowrap justify-start items-center gap-[150px] md:gap-[200px]'>
+        <div className='flex flex-nowrap justify-start items-center gap-[10px] md:gap-[200px]'>
           <img 
             src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/2048px-HP_logo_2012.svg.png' 
             alt='hp brand' 

@@ -24,7 +24,7 @@ body{
   }
   
   .marquee .flex {
-    animation: marquee 40s linear infinite;
+    animation: marquee 20s linear infinite;
   }
   
   @keyframes marquee {
